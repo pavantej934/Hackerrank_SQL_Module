@@ -1,2 +1,0 @@
-select Name+"("+substring(Occupation,1,1)+")" from OCCUPATIONS order by Name ASC;
-select "There are total "+convert(varchar(2),count(Occupation))+" "+lower(Occupation)+"s." from OCCUPATIONS group by Occupation order by count(Occupation) ASC, Occupation ASC;
