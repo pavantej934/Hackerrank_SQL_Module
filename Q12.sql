@@ -1,0 +1,1 @@
+select DISTINCT CITY from STATION where SUBSTRING(CITY,LEN(CITY),1) in ("A","E","I","O","U");

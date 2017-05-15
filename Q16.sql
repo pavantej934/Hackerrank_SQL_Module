@@ -1,0 +1,1 @@
+select DISTINCT CITY from STATION where substring(CITY,1,1) not in ("A","E","I","O","U") or substring(CITY,LEN(CITY),1) not in ("A","E","I","O","U");

@@ -1,0 +1,1 @@
+select Name from STUDENTS where Marks > 75 order by substring(Name,LEN(Name)-2,3) ASC, ID ASC;
